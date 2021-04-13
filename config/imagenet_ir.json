@@ -1,5 +1,5 @@
 {
-    "exp_base": "/mnt/fs6/honglinc/experiments_data",
+    "exp_base": "../../experiment_base",
     "debug": false,
     "exp_name": "imagenet_ir",
     "exp_id": "res18_IR",

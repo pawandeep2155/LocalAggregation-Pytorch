@@ -1,5 +1,5 @@
 {
-    "exp_base": "/mnt/fs6/honglinc/experiments_data",
+    "exp_base": "../../experiment_base",
     "debug":false,
     "exp_name": "imagenet_la",
     "exp_id": "res18_LA",
@@ -39,6 +39,6 @@
     "num_epochs": 200,
     "validate": true,
     "copy_checkpoint_freq": null,
-    "instance_exp_dir": "/mnt/fs6/honglinc/experiments_data/experiments/imagenet_ir/res18_IR",
+    "instance_exp_dir": "../../experiment_base/experiments/imagenet_ir/res18_IR",
     "pretrained_exp_dir": null
 }

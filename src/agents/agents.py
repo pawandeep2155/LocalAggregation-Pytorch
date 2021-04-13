@@ -324,6 +324,8 @@ class ImageNetAgent(BaseAgent):
         self.val_dataset = val_dataset
 
         train_samples = train_dataset.dataset.samples
+        # [('dataset/train/0/abc.JPG', 0), ('dataset/train/0/def.JPG', 0), ('dataset/train/1/ghi.JPG', 1),
+        # ('dataset/train/1/jkl.JPG', 1), ('dataset/train/2/mno.JPG', 2)]
         train_labels = [train_samples[i][1] for i in range(len(train_samples))]
         self.train_ordered_labels = np.array(train_labels)
 
