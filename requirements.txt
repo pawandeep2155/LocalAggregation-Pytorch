@@ -1,3 +1,5 @@
 tqdm
 dotmap
 tensorboardX
+faiss_gpu==1.6.1
+termcolor
