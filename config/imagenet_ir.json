@@ -25,7 +25,7 @@
         "k": 4096,
         "t": 0.07,
         "m": 0.5,
-        "kmeans_k": 30000,
+        "kmeans_k": 300,
         "n_kmeans": 10,
         "kmeans_freq": null,
         "loss": "InstanceDiscriminationLossModule"
