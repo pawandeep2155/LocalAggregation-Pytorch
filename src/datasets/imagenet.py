@@ -7,7 +7,7 @@ import torch.utils.data as data
 from torchvision import transforms, datasets
 
 IMAGENET_DIR = None
-DIR_LIST = ['../../../dataset/images']
+DIR_LIST = ['../dataset/images']
 
 for path in DIR_LIST:
     if os.path.exists(path):
