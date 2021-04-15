@@ -39,6 +39,6 @@
     "num_epochs": 200,
     "validate": true,
     "copy_checkpoint_freq": null,
-    "instance_exp_dir": "../../experiment_base/experiments/imagenet_ir/res18_IR",
+    "instance_exp_dir": "./experiment_base/experiments/imagenet_ir/res18_IR",
     "pretrained_exp_dir": null
 }
