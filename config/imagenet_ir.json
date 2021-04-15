@@ -1,5 +1,5 @@
 {
-    "exp_base": "../../experiment_base",
+    "exp_base": "./experiment_base",
     "debug": false,
     "exp_name": "imagenet_ir",
     "exp_id": "res18_IR",
@@ -25,7 +25,7 @@
         "k": 4096,
         "t": 0.07,
         "m": 0.5,
-        "kmeans_k": 300,
+        "kmeans_k": 30,
         "n_kmeans": 10,
         "kmeans_freq": null,
         "loss": "InstanceDiscriminationLossModule"

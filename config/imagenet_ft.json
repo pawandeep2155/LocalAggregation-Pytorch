@@ -1,5 +1,5 @@
 {
-    "exp_base": "../../experiment_base",
+    "exp_base": "./experiment_base",
     "debug": false,
     "exp_name": "imagenet_ft",
     "exp_id": "res18_trans",
