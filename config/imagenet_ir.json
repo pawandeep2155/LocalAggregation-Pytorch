@@ -22,10 +22,10 @@
         "resnet_version": "preact-resnet18"
     },
     "loss_params": {
-        "k": 4096,
+        "k": 128,
         "t": 0.07,
         "m": 0.5,
-        "kmeans_k": 30,
+        "kmeans_k": 3,
         "n_kmeans": 10,
         "kmeans_freq": null,
         "loss": "InstanceDiscriminationLossModule"
